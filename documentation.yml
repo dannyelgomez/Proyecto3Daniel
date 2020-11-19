@@ -131,7 +131,7 @@ paths:
           $ref: "#/components/responses/Default"
 
 #ORDENES
-  /getOrder:
+  /orders/getOrder:
     get:
       tags:
         - Orders
@@ -150,7 +150,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
             
-  /addOrder/:id:
+  /orders/addOrder/:id:
     post:
       tags:
         - Orders
@@ -172,7 +172,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
 
-  /updateOrder/:id:
+  /orders/updateOrder/:id:
     put:
       tags:
         - Orders
@@ -212,7 +212,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
           
-  /deleteOrder/:id:
+  /orders/deleteOrder/:id:
     delete:
       tags:
         - Orders
@@ -238,7 +238,7 @@ paths:
           $ref: "#/components/responses/Default"
   
 #PRODUCTOS
-  /getProducts:
+  /products/getProducts:
     get:
       tags:
         - Products
@@ -265,7 +265,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
 
-  /getProducts/:id:
+  /products/getProducts/:id:
     get:
       tags:
         - Products
@@ -294,7 +294,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
     
-  /addProducts/:id:      
+  /products/addProducts/:id:      
     post:
       tags:
         - Products
@@ -318,7 +318,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
 
-  /updateProducts/:id:  
+  /products/updateProducts/:id:  
     put:
       tags:
         - Products
@@ -350,7 +350,7 @@ paths:
         default:
           $ref: "#/components/responses/Default"
 
-  /deleteProducts/:id:  
+  /products/deleteProducts/:id:  
     delete:
       tags:
         - Products
