@@ -1,4 +1,5 @@
 CREATE DATABASE DB_INICIAL1;
+USE DB_INICIAL1;
 
 -- Table Creation
 CREATE TABLE users (
@@ -19,7 +20,7 @@ INSERT INTO
 VALUES
   (NULL,"daniel","danny123","Daniel Gomez","danny57@gmail.com",3007243432,"Cra 14 # 8-12",TRUE,FALSE),
   (NULL,"andrea","nic089","Andrea Zapata","and_058@hotmail.com",3154568212,"Calle 101 #74-35",FALSE,FALSE),
-  (NULL,"luis","457Bedoya","Luis Bedoya","lube45@gmail.com",3123125252,"Calle 35 #66B-30",FALSE,FALSE);
+  (NULL,"luis","457Bedoya","Luis Bedoya","lube45@gmail.com",3123125252,"Calle 35 #66B-30",FALSE,FALSE),
   (NULL,"Cristina","cris.45","Cristian Rua","c.rua.82@gmail.com",3189782536,"Av 57 #13-49",FALSE,FALSE);
    
 CREATE TABLE products (

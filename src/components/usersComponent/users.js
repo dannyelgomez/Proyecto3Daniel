@@ -3,7 +3,6 @@ const sequelize = require('../../commons/database/conexion');
 
 const validateCreateUser = async(req, res) => {
     let { username, password, fullname, email, phone, address } = req.body;
-    validateUsername(req, res, username);
     if (!username || !password || !fullname || !email || !phone || !address) {
         res.status(400).json('Petición incompleta o equivocada');
         console.log('faltan datos');
